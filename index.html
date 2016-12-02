@@ -22,6 +22,7 @@
 		function change(){
 			doc.documentElement.style.fontSize=40*doc.documentElement.clientWidth/320+'px';
 		}
+		change();
 		window.addEventListener('resize',change,false);
 	})(window,document);
 	window.onload=function(){
